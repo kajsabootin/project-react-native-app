@@ -7,7 +7,6 @@ export default function Header () {
   return (
     <View >
       <Text> MAGIC 8 BALL </Text>
-
     </View>
   )
 }

@@ -7,18 +7,10 @@ import styled from 'styled-components/native'
 
   return (
     <Container>
-
-        <Header/> 
-        
-        <View>
-
-        <MagicBall/>
-
-        </View>
-      
+      <Header/> 
+      <MagicBall/>
     </Container>
   )
-
 }
 
 const Container = styled.View`
@@ -27,11 +19,6 @@ const Container = styled.View`
   justify-content: center;
   align-items: center;
 `
-const View = styled.View`
-  flex: 1;
-  background-color: #8CFFBA;
-  justify-content: center;
-  align-items: center;
-`
+
 
 export default App

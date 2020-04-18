@@ -76,22 +76,17 @@ export default function MagicBall  ()  {
   return (
 
     <View>
-
       <BigCircel>
           <TextNumber> 8</TextNumber>
-        <SmallCircel>
-          <Answear> {quote.answear} </Answear>
-        </SmallCircel>
+          <SmallCircel>
+            <Answear> {quote.answear} </Answear>
+          </SmallCircel>
       </BigCircel>
-
       <TouchableOpacity onPress={showQuote}>
-      <Text>Ask me</Text>
+        <Text>Ask me</Text>
       </TouchableOpacity>
-      
     </View>
-
   )
-
 }
 
 const View = styled.View`
@@ -103,7 +98,7 @@ const BigCircel = styled.View`
   height: 320;
   width: 320;
   background-color: #000000;
-  margin-top: 160;
+  margin-top: 120;
   border-radius: 320;
   justify-content: center;
   align-items: center;
@@ -137,7 +132,6 @@ const Answear = styled.Text`
 const TouchableOpacity = styled.TouchableOpacity`
   background-color: #FCED84;
   border-radius: 50;
-  padding-left: 15;
-  padding-right: 15;
-  margin-top: 100;
+  justify-content: space-between;
+  margin-top: 15;
 `
